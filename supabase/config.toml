@@ -1,0 +1,8 @@
+# Supabase project config. Only the part this starter needs is here; `supabase init` or
+# Lovable may add more around it, which is fine.
+
+[functions.realtime-avatar]
+# The function runs its own access check (`authorize` in index.ts). With JWT verification on,
+# Supabase's gateway rejects the browser's CORS preflight and the new sb_publishable_ keys,
+# so it is turned off for this one function.
+verify_jwt = false

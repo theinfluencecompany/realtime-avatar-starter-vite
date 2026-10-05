@@ -1,0 +1,50 @@
+{
+  "name": "realtime-avatar-starter-vite",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "preview": "vite preview",
+    "start": "tsx server/node.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.3",
+    "@livekit/components-react": "^2.9.24",
+    "hono": "^4.13.13",
+    "livekit-client": "^2.22.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "realtime-avatar": "0.26.0",
+    "zod": "^4.6.5",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.2"
+  },
+  "description": "Vite + React + Tailwind starter for Realtime Avatar: a live AI avatar call, with the API key kept server-side (Supabase Edge Function or Node/Hono).",
+  "keywords": [
+    "realtime-avatar",
+    "ai-avatar",
+    "lovable",
+    "bolt",
+    "replit",
+    "v0",
+    "supabase",
+    "vite",
+    "react"
+  ]
+}

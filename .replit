@@ -1,0 +1,12 @@
+# Replit: `Run` starts the dev server (page + API route on one port).
+# Add REALTIME_AVATAR_API_KEY in the Secrets tool first.
+modules = ["nodejs-20"]
+run = "npm run dev"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+
+[deployment]
+build = "npm run build"
+run = "npm start"

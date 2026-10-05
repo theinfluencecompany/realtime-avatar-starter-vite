@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "realtime-avatar": "npm:realtime-avatar@0.26.0",
+    "realtime-avatar/hono": "npm:realtime-avatar@0.26.0/hono"
+  }
+}
